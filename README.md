@@ -36,6 +36,7 @@ This project represents a **snapshot analysis** based on a fixed 30-day window e
 | `diagram.png` | Workflow/pipeline diagram used inside the notebook and report. |
 | `magnitude.png` | Magnitude distribution plot generated in the notebook. |
 | `.gitignore` | Automatically generated file to keep unnecessary files (e.g., checkpoints, cache) out of the repo. |
+| `requirements.txt` | List of required Python packages needed to run the notebook. |
 
 ---
 
@@ -59,6 +60,7 @@ jupyter notebook
 Then open:  earthquake_analysis_notebook.ipynb
 Run all cells from top to bottom to reproduce the complete ELT workflow, data loading, analysis, and visualizations.
 
+---
 
 ## Requirements & Configuration
 This project uses the following key packages:
@@ -92,6 +94,8 @@ COLL_NAME = "earthquakes"
 
 ### Fetch last 30 days of data
 START_UTC = datetime.utcnow() - timedelta(days=30)
+
+---
 
 ## Notes
 The dataset covers the last 30 days up to October 10, 2025.
