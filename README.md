@@ -23,7 +23,7 @@ This analysis demonstrates:
 - Visualizing results with **Matplotlib**
 - Creating a final **PDF report** summarizing insights
 
-This project represents a **snapshot analysis** based on a fixed 30-day window ending on **October 10, 2025**.
+This project represents a **snapshot analysis** based on a fixed 30-day window.
 
 ---
 
